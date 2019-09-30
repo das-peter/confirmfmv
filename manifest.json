@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+  "applications": {
+    "gecko": {
+      "id": "confirmfmv@das-peter",
+      "strict_min_version": "68.0"
+    }
+  },
+  "name": "ConfirmFolderMove",
+  "description": "Introduces a preference that allows users to be prompted before moving folders.",
+  "version": "2.0",
+  "icons": {
+    "32": "chrome/skin/icon32x32.png"
+  },
+  "legacy": {
+    "type": "xul",
+    "options": {
+      "page": "chrome://confirmfmv/chrome/content/options.xul",
+      "open_in_tab": false
+    }
+  }
+} 
