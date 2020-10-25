@@ -2,21 +2,21 @@
   "manifest_version": 2,
   "applications": {
     "gecko": {
-      "id": "confirmfmv@das-peter",
+      "id": "{c267db80-8a57-11da-a8d5-000a95be0946}",
       "strict_min_version": "68.0"
     }
   },
-  "name": "ConfirmFolderMove",
-  "description": "Introduces a preference that allows users to be prompted before moving folders.",
-  "version": "2.0",
-  "icons": {
-    "32": "chrome/skin/icon32x32.png"
-  },
+  "name": "__MSG_extensionName__",
+  "version": "1.3.0",
+  "description": "__MSG_extensionDescription__",
+  "author": "Ryan Lee (ryan@ryanlee.org)",
+  "homepage_url": "http://ryanlee.org/software/mozilla/thunderbird/confirmfmv/",
   "legacy": {
     "type": "xul",
     "options": {
-      "page": "chrome://confirmfmv/chrome/content/options.xul",
-      "open_in_tab": false
+      "page": "content/options.xul",
+      "open_in_tab": true
     }
-  }
-} 
+  },
+  "default_locale": "en"
+}
